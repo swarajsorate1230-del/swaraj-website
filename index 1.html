@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swaraj Sorate | Personal Website</title>
+
+  <!-- Mobile First -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    /* ===== BASE RESET ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #f4f6fb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* ===== HEADER ===== */
+    header {
+      background: white;
+      padding: 16px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+    }
+
+    header h1 {
+      font-size: 22px;
+      color: #5b6cff;
+    }
+
+    /* ===== HERO ===== */
+    .hero {
+      padding: 50px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #5b6cff, #7c8cff);
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 15px;
+      opacity: 0.95;
+    }
+
+    /* ===== SECTIONS ===== */
+    section {
+      padding: 35px 20px;
+    }
+
+    section h3 {
+      text-align: center;
+      font-size: 22px;
+      color: #5b6cff;
+      margin-bottom: 20px;
+    }
+
+    /* ===== CARD STYLE ===== */
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 14px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+      max-width: 700px;
+      margin: auto;
+    }
+
+    /* ===== ABOUT ===== */
+    .about p {
+      font-size: 15px;
+      text-align: center;
+    }
+
+    /* ===== SKILLS ===== */
+    .skills-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .skill {
+      background: #f4f6fb;
+      padding: 14px;
+      text-align: center;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    /* ===== CONTACT ===== */
+    .contact {
+      text-align: center;
+    }
+
+    .contact p {
+      font-size: 15px;
+      margin-bottom: 15px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #5b6cff;
+      color: white;
+      border-radius: 30px;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #4456e8;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      text-align: center;
+      padding: 18px;
+      font-size: 13px;
+      color: #777;
+    }
+
+    /* ===== DESKTOP ===== */
+    @media (min-width: 768px) {
+      .hero h2 {
+        font-size: 34px;
+      }
+
+      .skills-list {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>SS Web Developer</h1>
+  </header>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h2>Hello, I'm Swaraj Sorate 👋</h2>
+    <p>A beginner web developer creating clean and user-friendly websites</p>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about">
+    <h3>About Me</h3>
+    <div class="card">
+      <p>
+        I am a beginner web developer passionate about creating simple, modern,
+        and user-friendly websites. I enjoy turning ideas into clean designs and
+        continuously improving my skills through real projects.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section>
+    <h3>Skills</h3>
+    <div class="card">
+      <div class="skills-list">
+        <div class="skill">Web Developer</div>
+        <div class="skill">Basic to Luxurious Website Making</div>
+        <div class="skill">User-Friendly Design</div>
+        <div class="skill">Best Web Developing Budgets</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact">
+    <h3>Contact</h3>
+    <div class="card">
+      <p>Feel free to reach out for making your First Website ✨️</p>
+      <a href="mailto:swarajsorate1230@gmail.com" class="btn">
+        swarajsorate1230@gmail.com
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 SS Web Developer | Personal Website
+  </footer>
+
+</body>
+</html>
